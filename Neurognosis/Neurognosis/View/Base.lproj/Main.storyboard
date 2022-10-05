@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Neurognosis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNF-IN-NXn">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEUROGNOSIS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtG-WX-DRh">
+                                        <rect key="frame" x="44" y="119" width="301" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
+                                        <color key="textColor" red="0.96792107819999995" green="0.80313831570000005" blue="0.51365560290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The #1 Amyotrophic Lateral Sclerosis (ALS) diagnosis app in the world" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qph-J8-3wn">
+                                        <rect key="frame" x="76" y="175" width="239" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                        <color key="textColor" name="AccentColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnS-NT-uPP">
+                                        <rect key="frame" x="107" y="69" width="175" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="35"/>
+                                        <color key="textColor" name="AccentColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="QNT-Bx-52h">
+                                <rect key="frame" x="0.0" y="301" width="390" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRI-mH-gtl">
+                                <rect key="frame" x="20" y="700" width="350" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.21376851199999999" green="0.48801577089999998" blue="0.61962914469999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GET STARTED" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96792107819999995" green="0.80313831570000005" blue="0.51365560290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="b5b-rt-AEq" kind="presentation" modalPresentationStyle="fullScreen" id="qJc-Ww-YLb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="aRI-mH-gtl" id="zES-QL-fPa"/>
+                        <outlet property="neurognosisLabel" destination="jtG-WX-DRh" id="5tq-ai-Zj7"/>
+                        <outlet property="rectangle" destination="hNF-IN-NXn" id="edM-e0-cXi"/>
+                        <outlet property="welcomeLabel" destination="WnS-NT-uPP" id="Nms-PG-xIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="701.53846153846155" y="83.886255924170612"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="sdz-wo-5g3">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="hp8-3a-CdD" customClass="PageViewController" customModule="Neurognosis" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="otV-JE-I5X"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rbZ-sK-bGl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1489" y="694"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vS4-xr-uBV">
+            <objects>
+                <viewController id="mWq-t5-ZwE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7xG-yF-l9a">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I agree to Terms of Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikC-Xb-Loq">
+                                <rect key="frame" x="89" y="389" width="224" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I agree to processing of my personal health data for providing me Neurognosis app functions." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGh-hE-9A7">
+                                <rect key="frame" x="43" y="482" width="347" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mji-dn-8DD">
+                                <rect key="frame" x="16" y="389" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Privacy First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rf2-5n-vCQ">
+                                <rect key="frame" x="80" y="269" width="213" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dsj-Ba-Peq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDf-DG-hYR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2244.6153846153848" y="753.55450236966817"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="8Qu-F8-ypl">
+            <objects>
+                <viewController id="9xl-xz-OFm" customClass="InputViewController" customModule="Neurognosis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MVv-It-UX6">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lis-5s-awq">
+                                <rect key="frame" x="20" y="700" width="350" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.96792107819999995" green="0.80313831570000005" blue="0.51365560290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="GENERATE DIAGNOSIS">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.96792107819999995" green="0.80313831570000005" blue="0.51365560290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitAction:" destination="9xl-xz-OFm" eventType="touchUpInside" id="bmM-9R-Jr0"/>
+                                </connections>
+                            </button>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jPC-Cf-pcF">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please select the symptoms that you have" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYx-iG-e4X">
+                                        <rect key="frame" x="32" y="109" width="327" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Questionnaire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4K-lu-4Fo">
+                                        <rect key="frame" x="62" y="52" width="267" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
+                                        <color key="textColor" red="0.96792107819999995" green="0.80313831570000005" blue="0.51365560290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="6fz-Rk-pIZ">
+                                <rect key="frame" x="31.666666666666657" y="187.99999999999997" width="326.66666666666674" height="468.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="soD-rG-3ya">
+                                        <rect key="frame" x="0.0" y="0.0" width="326.66666666666669" height="30.666666666666668"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced muscle-related diseases before neuron-related diseases" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLp-qK-5T5">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1P-4U-6eg" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="center" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hlR-hE-xbH">
+                                        <rect key="frame" x="0.0" y="33.666666666666657" width="326.66666666666669" height="30.666666666666671"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experience speech disorder before neuron-related diseases" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ckv-EN-xfw">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGx-Hb-K2n" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="gH4-Uq-psr">
+                                        <rect key="frame" x="0.0" y="67.333333333333343" width="326.66666666666669" height="30.666666666666671"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before muscle-related diseases" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLl-JG-XWq">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je8-6F-rn3" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Hqr-hV-dw0">
+                                        <rect key="frame" x="0.0" y="101" width="326.66666666666669" height="30.666666666666657"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before lack of coordination" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmo-ej-vS1">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BY-dJ-zX8" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="sfc-Fk-Tbb">
+                                        <rect key="frame" x="0.0" y="134.66666666666669" width="326.66666666666669" height="30.666666666666657"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before abnormal walking" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFV-Xe-qUb">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGf-EM-R37" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="lVF-b4-APK">
+                                        <rect key="frame" x="0.0" y="168.33333333333331" width="326.66666666666669" height="30.666666666666657"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced lack of coordination before neuron-related diseases " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgY-0p-qkd">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WC5-7J-UE2" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="rxO-ne-YJE">
+                                        <rect key="frame" x="0.0" y="202" width="326.66666666666669" height="30.666666666666657"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before speech disorder" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkv-Tj-20m">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYU-IK-dlf" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="center" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="56z-z5-MyJ">
+                                        <rect key="frame" x="0.0" y="235.66666666666669" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before spondylosis" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsO-cY-e3g">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TO2-Ma-JrN" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="1yJ-eh-Kes">
+                                        <rect key="frame" x="0.0" y="269.33333333333331" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced deformities before neuron-related diseases " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xeb-65-yui">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gq0-fI-Pgl" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="j2f-8B-17u">
+                                        <rect key="frame" x="0.0" y="303" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before deformities" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkm-NW-64N">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qb-yJ-GyF" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="2ak-WK-w5G">
+                                        <rect key="frame" x="0.0" y="336.66666666666663" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before musculoskeletal" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3e-me-6eD">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqj-ka-eqe" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Qp-ab-7Fg">
+                                        <rect key="frame" x="0.0" y="370.33333333333337" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced neuron-related diseases before dysphagia" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTw-o1-dwG">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqh-kl-J9d" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="rbk-fv-yQf">
+                                        <rect key="frame" x="0.0" y="404" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced spondylosis before neuron-related diseases " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Js-6r-e8B">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8N1-mg-VRg" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="FZM-dC-Iic">
+                                        <rect key="frame" x="0.0" y="437.66666666666663" width="326.66666666666669" height="30.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experienced abnormal walking before neuron-related diseases " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGp-iJ-vya">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="30.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.17017954590000001" green="0.39044672250000001" blue="0.4941346049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32Y-22-1ou" customClass="CheckBox" customModule="Neurognosis" customModuleProvider="target">
+                                                <rect key="frame" x="281.66666666666663" y="0.0" width="45" height="30.666666666666668"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="square" catalog="system">
+                                                    <color key="baseForegroundColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="V3e-me-6eD" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="1k3-9K-Aaw"/>
+                                    <constraint firstItem="1BY-dJ-zX8" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="3cY-vx-gyS"/>
+                                    <constraint firstItem="TO2-Ma-JrN" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="3eT-ja-oUy"/>
+                                    <constraint firstItem="wLl-JG-XWq" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="BQ6-Qt-IP3"/>
+                                    <constraint firstItem="Gkm-NW-64N" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="Dx9-Zl-Pfq"/>
+                                    <constraint firstItem="bsO-cY-e3g" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="I1b-se-DAq"/>
+                                    <constraint firstItem="zmo-ej-vS1" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="Jai-zG-Bft"/>
+                                    <constraint firstItem="bsO-cY-e3g" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="LLz-g1-3t4"/>
+                                    <constraint firstItem="Xeb-65-yui" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="LaV-Yd-Y7T"/>
+                                    <constraint firstItem="Xeb-65-yui" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="MHG-u0-OPj"/>
+                                    <constraint firstItem="zmo-ej-vS1" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="Mcn-im-gHU"/>
+                                    <constraint firstItem="Xqj-ka-eqe" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="Qd9-Sb-QJT"/>
+                                    <constraint firstItem="dqh-kl-J9d" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="RTi-ZT-87b"/>
+                                    <constraint firstItem="V3e-me-6eD" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="Vta-Nw-iMk"/>
+                                    <constraint firstItem="p1P-4U-6eg" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="WsT-CB-jzr"/>
+                                    <constraint firstItem="Ckv-EN-xfw" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="Zew-TU-WPa"/>
+                                    <constraint firstItem="vGf-EM-R37" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="azn-D8-2GG"/>
+                                    <constraint firstItem="dFV-Xe-qUb" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="byZ-MX-jU1"/>
+                                    <constraint firstItem="je8-6F-rn3" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="dRK-iC-uwR"/>
+                                    <constraint firstItem="hkv-Tj-20m" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="fCV-3a-B06"/>
+                                    <constraint firstItem="hkv-Tj-20m" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="fus-PX-YMc"/>
+                                    <constraint firstItem="dFV-Xe-qUb" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="gjG-A4-CRP"/>
+                                    <constraint firstItem="gTw-o1-dwG" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="hmP-xb-bcb"/>
+                                    <constraint firstItem="MGp-iJ-vya" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="hnu-sN-0Zu"/>
+                                    <constraint firstItem="32Y-22-1ou" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="kiZ-Ko-hc9"/>
+                                    <constraint firstItem="3Js-6r-e8B" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="o2V-Eo-53I"/>
+                                    <constraint firstItem="Gkm-NW-64N" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="oAi-Jw-Er2"/>
+                                    <constraint firstItem="Ckv-EN-xfw" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="oyL-32-FOd"/>
+                                    <constraint firstItem="mgY-0p-qkd" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="qjh-1V-CGV"/>
+                                    <constraint firstItem="8N1-mg-VRg" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="txQ-IS-P55"/>
+                                    <constraint firstItem="WC5-7J-UE2" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="ulG-Fi-pGl"/>
+                                    <constraint firstItem="wLl-JG-XWq" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="v6f-QJ-l7Q"/>
+                                    <constraint firstItem="3Js-6r-e8B" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="vgd-bg-XTF"/>
+                                    <constraint firstItem="Gq0-fI-Pgl" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="x7T-bo-5qn"/>
+                                    <constraint firstItem="gTw-o1-dwG" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="xKt-rb-VnD"/>
+                                    <constraint firstItem="9qb-yJ-GyF" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="y5Z-ea-XBX"/>
+                                    <constraint firstItem="IYU-IK-dlf" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" id="z82-3g-dgR"/>
+                                    <constraint firstItem="mgY-0p-qkd" firstAttribute="height" secondItem="HLp-qK-5T5" secondAttribute="height" id="zMu-mO-5Gb"/>
+                                    <constraint firstItem="MGp-iJ-vya" firstAttribute="width" secondItem="HLp-qK-5T5" secondAttribute="width" id="zg7-Cn-rqf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZAj-uq-YBc"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="ZAj-uq-YBc" firstAttribute="trailing" secondItem="3Qp-ab-7Fg" secondAttribute="trailing" constant="31.666666666666629" id="0Sk-Eh-XzJ"/>
+                            <constraint firstItem="Ckv-EN-xfw" firstAttribute="leading" secondItem="ZAj-uq-YBc" secondAttribute="leading" constant="31.666666666666657" id="2Ij-81-lUh"/>
+                            <constraint firstItem="6fz-Rk-pIZ" firstAttribute="centerX" secondItem="MVv-It-UX6" secondAttribute="centerX" id="DVy-dc-V04"/>
+                            <constraint firstItem="6fz-Rk-pIZ" firstAttribute="centerY" secondItem="MVv-It-UX6" secondAttribute="centerY" id="TKD-aW-8Kq"/>
+                            <constraint firstItem="ZAj-uq-YBc" firstAttribute="trailing" secondItem="WGx-Hb-K2n" secondAttribute="trailing" constant="31.666666666666742" id="vLG-7D-18i"/>
+                            <constraint firstItem="ZAj-uq-YBc" firstAttribute="trailing" secondItem="2ak-WK-w5G" secondAttribute="trailing" constant="31.666666666666629" id="xTb-Yn-RWH"/>
+                            <constraint firstItem="6fz-Rk-pIZ" firstAttribute="centerX" secondItem="MVv-It-UX6" secondAttribute="centerX" id="yAN-au-ykw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gpe-MS-Hi6"/>
+                    <connections>
+                        <outlet property="abnormalWalkingNeuron" destination="32Y-22-1ou" id="smi-cr-8LH"/>
+                        <outlet property="deformitiesNeuron" destination="Gq0-fI-Pgl" id="aUT-Ml-9k5"/>
+                        <outlet property="lackOfCoordinationNeuron" destination="WC5-7J-UE2" id="kh7-hq-Jgz"/>
+                        <outlet property="muscleNeuron" destination="p1P-4U-6eg" id="Fey-O8-ow9"/>
+                        <outlet property="neuronAbnormalWalking" destination="vGf-EM-R37" id="ZrV-ta-hSb"/>
+                        <outlet property="neuronDeformities" destination="9qb-yJ-GyF" id="WWs-ka-9Pe"/>
+                        <outlet property="neuronDysphagia" destination="dqh-kl-J9d" id="VhW-xQ-8fz"/>
+                        <outlet property="neuronLackOfCoordination" destination="1BY-dJ-zX8" id="iOT-Kb-LWb"/>
+                        <outlet property="neuronMuscle" destination="je8-6F-rn3" id="cAl-SI-b4l"/>
+                        <outlet property="neuronMusculoskeletal" destination="Xqj-ka-eqe" id="w2G-gA-GI4"/>
+                        <outlet property="neuronSpeechDisorder" destination="IYU-IK-dlf" id="3cX-UR-hwJ"/>
+                        <outlet property="neuronSpondylosis" destination="TO2-Ma-JrN" id="oUS-dF-TN5"/>
+                        <outlet property="speechDisorderNeuron" destination="WGx-Hb-K2n" id="jIO-uu-xK7"/>
+                        <outlet property="spondylosisNeuron" destination="8N1-mg-VRg" id="IeC-0h-UGY"/>
+                        <outlet property="submitButton" destination="Lis-5s-awq" id="xBx-Rk-8fz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gmr-bP-U8q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2973.8461538461538" y="83.886255924170612"/>
+        </scene>
+        <!--Page Content Controller-->
+        <scene sceneID="p1K-fn-ADI">
+            <objects>
+                <viewController id="b5b-rt-AEq" customClass="PageContentController" customModule="Neurognosis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EiB-CE-ZrJ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lE4-Nv-BVH">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="677"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="hp8-3a-CdD" kind="embed" id="1n3-es-mnA"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HB-8T-WmN">
+                                <rect key="frame" x="113" y="715" width="164" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.21376851199999999" green="0.48801577089999998" blue="0.61962914469999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" systemColor="tintColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Jad-yY-dMb" kind="show" id="R6W-pv-YKx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="00u-QK-HUK"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sga-YO-Xfk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sF3-b0-JhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521.5384615384614" y="83.886255924170612"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SGD-rE-ZPl">
+            <objects>
+                <viewController storyboardIdentifier="P1ViewController" id="HoW-nq-2Or" customClass="P1ViewController" customModule="Neurognosis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WcX-x1-7vA">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="DGC-rR-SIo">
+                                <rect key="frame" x="0.0" y="190" width="390" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQq-z1-CaC">
+                                <rect key="frame" x="174" y="512" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hdr-cz-45m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pcu-0p-FLQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ANZ-bI-3IM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="759"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qHc-XJ-wmj">
+            <objects>
+                <viewController storyboardIdentifier="P2ViewController" id="HXI-7u-gCS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HiQ-9w-XUu">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="T76-IF-5qU">
+                                <rect key="frame" x="75" y="181" width="240" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iwD-NA-fsZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3zw-RM-cMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4142" y="84"/>
+        </scene>
+        <!--Terms View Controller-->
+        <scene sceneID="GgL-of-kPe">
+            <objects>
+                <viewController id="Jad-yY-dMb" customClass="TermsViewController" customModule="Neurognosis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MK9-Se-3Db">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" allowsEditingTextAttributes="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qDi-RB-dw5">
+                                <rect key="frame" x="0.0" y="85" width="390" height="608"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">General Provisions
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPS-BoldMT"/>
+                                            <font key="NSOriginalFont" size="14" name="TimesNewRomanPS-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">These Terms of Service specify:
+principles of operation of the mobile application "Neurognosis",
+rules on the provision of services by electronic means,
+the rights and obligations of the Service Provider and the Service Recipients.
+Whenever these Terms of Service refer to:
+Application, this means the software for portable devices, made available free of charge by the Service Provider referred to in sec. 2(l) below, enabling the use of the Services referred to in sec. 2(k) below,
+Articles, this means articles referring to medical and pharmaceutical topics,
+License, this means a non-exclusive, royalty-free license granted to Users referred to in sec. 2(m) below to use the Application or Website referred to in sec. 2(j) below,
+Terms of Service, this means these Terms of Service,
+GDPR, this means Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, p. 1),
+Force Majeure, this means an extraordinary external event occurring after the conclusion of the Agreement referred to in sec. 2 (a) below, which is unforeseeable and cannot be prevented, and which makes it impossible in whole or in part to perform the obligations arising from the Agreement, including in particular: war, revolution, fire, flood, epidemic, transport limitation, general strike affecting important sectors of the economy, official decisions of state or local authorities, and transport disruption caused by terrorist attacks,
+Provision of a service by electronic means, this means provision of the Service referred to in sec. 2(k) below, provided without the simultaneous presence of the parties (remotely), through the transmission of data at the individual request of the User referred to in sec. 2(m) below, transmitted and received by means of devices for electronic processing, including digital compression, and data storage, which is entirely transmitted, received or transmitted via a telecommunications network in the meaning of the Telecommunications Law of 16 July 2004. - (Journal of Laws No. 171, item 1800, as amended),
+Agreement, this means an agreement for provision of services by electronic means, concluded between the User referred to in sec. 2 (m) below and the Service Provider referred to in sec. 2 (l) below,
+Services, this means all activities provided electronically by the Service Provider referred to in sec. 2(l) below to the User referred to in sec. 2(m) below, within the Application and/or the Website,
+User, this means a natural person over 18 years of age, who has full legal capacity and uses the Services for purposes not related to his or her trade or profession (consumer), but the aim of receiving the Virtual Diagnosis for themselves or for the third party beneficiary,
+Service Provider, this means Infermedica spółka z ograniczoną odpowiedzialnością with its registered office in Wrocław, Plac Solny 14/3, 50-062 Wrocław, Poland, entered into the register of entrepreneurs of the National Court Register kept by the District Court for Wrocław-Fabryczna in Wrocław, VI Commercial Division of the National Court Register under KRS number: 0000429183, with tax identification number (NIP): 8971782877 and registered business number (REGON): 021889810. Current data of the Service Provider are available at https://infermedica.com,
+Virtual Diagnosis, this means information in the form of a report generated by a computer system, aimed at presenting potential threats and diseases potentially related to symptoms and predispositions communicated by the User during the Interview; A Virtual Diagnosis does not constitute or replace medical diagnosis or medical advice,
+Interview, this means a form of interaction between the computer system and the User, whereby information is obtained from the User about symptoms and predispositions of diseases of the User or of the third-party beneficiary, aimed at generating a Virtual Diagnosis; the Interview may be conducted through an interactive system available on the Website and Application, as well as through chat bots and voice assistants.
+By using the Application, the User declares that they shall comply with the terms and conditions set forth in these Terms of Service.
+Acknowledgments and liability of the Service Provider
+The purpose of the Website and/or Application is to present to the User, for informational and educational purposes only, potential diseases and illnesses which might not be directly related to the symptoms and illnesses communicated by the User during the Interview, in order to present the Virtual Diagnosis.
+The Interview, the Virtual Diagnosis, and all the content published on the Website and/or Application are for informational and educational purposes only and may not under any circumstances be interpreted or treated as advice or a consultation or diagnosis of a medical doctor. The Interview, the Virtual Diagnosis, and all the content published on the Website and/or Application do not constitute a basis for self-diagnosis, individual treatment or a treatment of the third party based on information obtained through the Website and/or Application. Any information obtained using the Website and/or Application, and in particular information in the form of disease units generated by the computer system in the form of an Interview and a Virtual Diagnosis, is not deemed to be any form of health care services and does not replace a medical appointment, medical diagnosis, or any form of consultation with a medical doctor.
+The Service Provider stresses that any pharmaceuticals, including those listed on the Website and/or Application, or also in connection with an Interview or a Virtual Diagnosis, may only be used on the basis of medical or pharmaceutical consultations.
+The Service Provider is entitled to disable the operation of the Website partially or fully and/or Application in order to repair or upgrade them without notifying the Users in advance. If the Website and/or Application are completely disabled, an appropriate message shall be published on the Service Provider's website.
+The Service Provider is not liable for:
+a User's actions or omissions in relation to information obtained through the Website and/or Application,
+actions or omissions of the third party for the benefit of which the User conducted an Interview in connection with information obtained through the Website and/or the Application,
+use of medicines and other pharmaceuticals listed on the Website and/or in the Application, as set forth in sec. 2 and 3 above,
+non-performance or improper performance of obligations under the Agreement due to a User’s hardware or software being defective,
+authenticity, reliability, correctness and completeness of data and information provided on the Website and/or in the Application by the Users,
+damage caused by the actions of third parties for which the Service Provider is not responsible,
+damage caused in connection with the sale of goods and provision of services mentioned in the advertising, promotional and informational content of the Website and/or Application, in particular goods and services performed improperly, in breach of the required standards, violating legal regulations or lacking the offered properties,
+interruptions in the functioning of the Website and/or Application for reasons beyond the Service Provider's control, in particular Force Majeure,
+any damage arising from the use of the Website and/or Application by Users in a manner contrary to the law or the Terms of Service,
+content placed on websites placed in other domains not owned by the Service Provider to which hyperlinks have been placed on the Website and/or Application.
+The Service Provider shall not be liable for the content of websites not administered by the Service Provider but linked to the Website and/or Application.
+The Website, Application, and information contained therein are not and under no circumstances may be construed as an offer in the meaning of the Polish Civil Code. If any prices are included, they should be treated as an invitation to negotiations.
+The User may use third-party websites and services through the Website and Applications by using applications relating to such websites or services. The Service Provider is not a party to any agreements for the Provision of services by electronic means concluded between the User and a third party and is not responsible for such services.
+The Service Provider's liability for the provision of the Service is regulated in the relevant provisions of law, and these Terms of Service should not be construed as grounds for granting an additional guarantee or extending the rights of the User over and above the statutory requirements.
+Services provided by electronic means
+Through the Website and/or the Application, the Service Provider provides the following Services:
+Interview,
+Virtual Diagnosis,
+The Service Provider, through the Website or the Application, enables the User to conduct a diagnostic interview for himself or herself or for a third party, e.g. children or people who otherwise cannot use the application directly. The selection is made by clicking the appropriate button at the initial stage of the Interview.
+The Service Provider provides Services by electronic means through the Website and/or the Application.
+To use the Services properly, the User must fulfil all of the following criteria as a minimum:
+hey should have a computer device that meets minimum technical requirements or a device on which mobile applications can be downloaded and used, and which complies with Application requirements (in particular a mobile phone, palmtop, smartphone, tablet),
+they should have access to the Internet,
+they should have access to e-mail,
+they should have the web browser Firefox, Google Chrome, Safari (which supports HTML documents and on which the “cookies” files acceptance option is switched on) and/or other software, in particular which operates on mobile devices,
+they should have capacity to read files in “pdf” format.
+The Service Provider is not liable for any improper functioning of the Services due to use of devices which do not meet the technical criteria.
+The Services are provided by the Service Provider free of charge, however, the Service Provider reserves the right to begin charging fees for Services in the future which are ordered by the User.
+The Service Provider has an exclusive right to shape the content of the Application and of the Website. In particular, the Service Provider is entitled to modify and/or erase any content and features of the Application and of the Website, as well as transfer rights to the Application and to the Website to a third party.
+Terms and conditions of conclusion of the agreement on services by electronic means
+The Agreement concerning use of the Website and/or the Application shall be deemed to be concluded by launching the Interview and accepting the Terms of Service.
+Conclusion of the Agreement is voluntary. If the User does not agree to the Terms of Service, they are required to promptly delete the Application from their mobile device and/or refrain from using the Website.
+The Agreement concerning use of the Website and of the Application shall be concluded from time to time for the duration of the Interview and shall be deemed as performed when the Virtual Diagnosis is provided to the User.
+The User shall have the access to the features and content of the Website and of the Application without signing in and/or creating an account beforehand.
+Rules concerning use of the Website and of the Application
+Any provision and dissemination of unlawful content by the User through the Website and the Application is prohibited. In particular, the User may not post or publish links and references on the Website and in the Application to websites:
+which infringe personal rights and interests of third parties or incite hatred on racial, ethnic, religious, or cultural grounds, or on the grounds of sexual orientation,
+which promote pornography and violence,
+which are advertisements,
+which breach the Pharmaceutical Law of 6 September 2001 – (Journal of Laws no. 126, item 1381 as amended),
+which breach rules widely accepted by the Internet community.
+The User shall use the Website and the Application in accordance with their intended purpose only. The User may not perform any activities which may disrupt proper functioning of the Website or of the Application. The User is not permitted, on its own and/or with help of third parties, to change, bypass or break security systems of the Website or of the Application, or to take action impacting the Website and the Application in a way that may cause damage and/or overloading of the Website or Application.
+The User is liable for their activities connected with use of the Website and of the Application. The User may only use the Services provided by the Service Provider for purposes consistent with the Terms of Service, applicable law, and established custom.
+The Service Provider shall use its best efforts to ensure that the Website and the Application function continually. The Service Provider stipulates that interruptions in operation of the Website and the Application may occur due to data updates, repair of bugs, and maintenance work.
+The User may not use the Website and the Application for commercial purposes or to advertise medical services, medicines, or other pharmaceuticals. This is an exclusive right of the Service Provider and the Website and the Application partners and is granted with the Service Provider’s consent.
+The User may not copy, modify, publish, or reproduce the Website or the Application in whole or in part.
+Termination and withdrawal from the Agreement
+The User has the right to withdraw from or terminate the Agreement at any time by ceasing to use the Website. If the Services are provided through the Application, withdrawal from or termination of the Agreement is effected by uninstalling it.
+The Service Provider is entitled to terminate the Agreement upon notice with immediate effect if the User infringes the Terms of Service and/or if the User’s activities breach established custom or are harmful to the Service Provider or other Users.
+Intellectual Property Rights
+The Application and the Website are protected by copyright vested in the Service Provider.
+Any graphics, technical solutions, texting, software, databases and any other content posted and published through the Website and the Application, as well as the way they are published (layout), are subject to copyright and related rights vested in the Service Provider.
+The Service Provider makes it possible for Users to use the Website and the Application, and grants the Users a non-exclusive, non-transferable, non-assignable, license which is limited in time for use of the Website and the Application, and a License with unlimited territorial scope to use the Website and the Application, including but not limited to the Articles. The above-mentioned License allows the Users to make multiple hard copies by installing the Application on a mobile device for the purpose for which they are intended and features stipulated in the Terms of Service. The Users are not granted any rights, including intellectual property rights, other than those stipulated in these Terms of Service, In particular, the Users are not granted any right to any use of the Website and the Application source codes. The Users acknowledge that if they breach the obligation described above, this may result in infringement of the Service Provider’s proprietary copyright to the Website and to the Application, and may result in criminal liability of the User.
+The Service Provider represents that it is entitled to grant the license stipulated in section 7(3).
+Content not provided by the Service Provider is or may be shared with the User in provision of the Services. A person who shares that content is exclusively liable for such content. The Service Provider does not monitor content published by the Users for consistency with the provisions of law and with these Terms of Service.
+The User shall not acquire any intellectual property rights to the content described in section 7(5) above when using the Services. The User may only use the Services if certain requirements prescribed in the provisions of law are met and/or the entity concerned has given consent.
+All names and markings of products, services or entities, in particular trademarks, logotypes and/or markings ( the “Materials”) of the services are placed on the Website and in the Application for informational purposes only. The Materials are the exclusive property of the entities concerned, and are used in accordance with the relevant provisions of law, in particular section 29 of the Act of 4 February 1994 on Copyright and Related Rights (Journal of Laws no. 24, item 83, as amended) and in a way consistent with sections 5 and 9 of the Act of 16 April 1993 on Combating Unfair Competition. No information placed on the Website and in the Application – to the extent in which it is owned by third parties - shall be assigned to the Service Provider, and the Service Provider is not liable for content of such information, views expressed on the Website and in the Application, or rights related to such information.
+Complaint procedure
+Any complaints concerning the Services provided by electronic means by the Service Provider on the basis of these Terms of Service may be submitted in written form to this e-mail address: NA
+In order to be properly processed, a complaint must contain the following information, as a minimum:
+information identifying the User (name, surname, e-mail address),
+subject matter of the complaint,
+statement of reasons for the complaint.
+The Service Provider reserves the right to request additional information or clarifications from the complainant if necessary, to process the complaint.
+The Service Provider shall process the complaint promptly, and within no more than 30 business days from the date on which it is submitted.
+The Service Provider will process complaints in accordance with these Terms of Service and applicable provisions of law.
+The decision concerning the outcome of the complaint will be delivered to the User via e-mail to the e-mail address provided in the complaint.
+The User has recourse to the out-of-court complaint and redress mechanisms before the Permanent Consumer Court of Arbitration competent for the seat of the Service Provider. Information concerning admissibility to this mechanism and procedures for processing claims can be found at: http://spsk.wiih.org.pl/index.php?id=110&amp;id2=109. The User shall also have recourse to the EU ODR Internet platform available at: https://ec.europa.eu/consumers/odr/.
+Privacy policy 
+The Service Provider protects the personal data of the Users and processes personal data in accordance with the GDPR as well as with the applicable provisions of domestic law. 
+Final Provisions
+Please be aware that Provision of a service by electronic means entails threats characteristic for services of this kind, in particular presence of malware (e.g. viruses, harmful software capable of self-duplication) and/or spyware software (software spying on a user’s Internet activity) as well as vulnerability to cracking and/or phishing (fraudulent obtaining of passwords). At the same time, please be advised that the Service Provider has taken all necessary steps to minimize all of the threats described above.
+Any amendments to these Terms of Service may be enacted at any time and take effect from the amended Terms of Service being placed on the Website and in the Application. The User may terminate the Agreement if any amendments are made to these Terms of Service. Use of the Website and the Application once amendments take effect constitutes acceptance of the amended Terms of Service.
+By using the Website and/or the Application, the User accepts these Terms of Service and undertakes to comply with all rules in these Terms of Service.
+The governing law of the agreement concluded on the basis of these Terms of Service is the law of the Republic of Poland, and this shall be without prejudice to provision 6(1)(2) of Regulation (EC) no. 593/2008 of the European Parliament and of the Council of 17 June 2008 on the law applicable to contractual obligations (Rome I). Applicable provisions of Polish law, in particular the Civil code and other Polish acts, including the Act on Provision of Services by Electronic Means and Act on Consumer’s Rights, apply to all matters not regulated in these Terms of Service.
+In the case of agreements concluded by consumers (i.e. persons who conclude agreements for purposes other than commercial or professional use), when:
+the Services are provided in the country where the consumer has their habitual residence, and/or
+the provided Services are in any way directed to this country or to several countries including that country, and the agreement falls within the scope of those Services,
+the choice of Polish law as the governing law as described in sections 4 and 5 shall be without prejudice to protection enjoyed by consumers under the law in the country of habitual residence which would be afforded to them if no governing law was selected. In such a situation – regardless of the governing law chosen on the basis of sections 4 and 5 – those provisions which are more beneficial for consumer shall apply.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">These Terms of Service take effect on November 26th, 2020.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terms of Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rps-Jg-k2f">
+                                <rect key="frame" x="16" y="44" width="197" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01q-wd-wlS">
+                                <rect key="frame" x="110" y="724" width="176" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.35030239819999998" green="0.76938623189999999" blue="0.698037982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Accept &amp; Continue">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="9xl-xz-OFm" kind="presentation" modalPresentationStyle="fullScreen" id="1xV-cQ-fvF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Apq-9D-GGc"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p26-jk-fHr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yu7-s4-FiV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2244.6153846153848" y="83.886255924170612"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="750" height="644"/>
+        <image name="Image-1" width="750" height="642"/>
+        <image name="Image-2" width="750" height="700"/>
+        <image name="square" catalog="system" width="128" height="114"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.98799997568130493" blue="0.92500001192092896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

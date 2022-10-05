@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9092BA281753FE006AAAF8 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9092B9281753FE006AAAF8 /* InputViewController.swift */; };
+		BD9092BE2817A61F006AAAF8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9092BD2817A61F006AAAF8 /* CheckBox.swift */; };
+		BD9092C02817BCB4006AAAF8 /* PopUpWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9092BF2817BCB4006AAAF8 /* PopUpWindowView.swift */; };
+		BD9092C2281836F8006AAAF8 /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9092C1281836F8006AAAF8 /* PListManager.swift */; };
+		BD9092C4281855C7006AAAF8 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9092C3281855C7006AAAF8 /* Data.plist */; };
+		BDFF822F27F4A3F6001652D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF822E27F4A3F6001652D0 /* AppDelegate.swift */; };
+		BDFF823127F4A3F6001652D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF823027F4A3F6001652D0 /* SceneDelegate.swift */; };
+		BDFF823327F4A3F6001652D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF823227F4A3F6001652D0 /* ViewController.swift */; };
+		BDFF823627F4A3F6001652D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFF823427F4A3F6001652D0 /* Main.storyboard */; };
+		BDFF823927F4A3F6001652D0 /* Neurognosis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDFF823727F4A3F6001652D0 /* Neurognosis.xcdatamodeld */; };
+		BDFF823B27F4A3F8001652D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFF823A27F4A3F8001652D0 /* Assets.xcassets */; };
+		BDFF823E27F4A3F8001652D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFF823C27F4A3F8001652D0 /* LaunchScreen.storyboard */; };
+		BDFF824927F4A3F9001652D0 /* NeurognosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF824827F4A3F9001652D0 /* NeurognosisTests.swift */; };
+		BDFF825327F4A3F9001652D0 /* NeurognosisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF825227F4A3F9001652D0 /* NeurognosisUITests.swift */; };
+		BDFF825527F4A3F9001652D0 /* NeurognosisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF825427F4A3F9001652D0 /* NeurognosisUITestsLaunchTests.swift */; };
+		BDFF826727F7CB0C001652D0 /* PageContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF826627F7CB0C001652D0 /* PageContentController.swift */; };
+		BDFF826927F7CFBE001652D0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF826827F7CFBE001652D0 /* PageViewController.swift */; };
+		BDFF82B927FA45CE001652D0 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF82B827FA45CE001652D0 /* TermsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDFF824527F4A3F9001652D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFF822327F4A3F6001652D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFF822A27F4A3F6001652D0;
+			remoteInfo = Neurognosis;
+		};
+		BDFF824F27F4A3F9001652D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFF822327F4A3F6001652D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFF822A27F4A3F6001652D0;
+			remoteInfo = Neurognosis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9092B9281753FE006AAAF8 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		BD9092BD2817A61F006AAAF8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		BD9092BF2817BCB4006AAAF8 /* PopUpWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindowView.swift; sourceTree = "<group>"; };
+		BD9092C1281836F8006AAAF8 /* PListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
+		BD9092C3281855C7006AAAF8 /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		BDFF822B27F4A3F6001652D0 /* Neurognosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neurognosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFF822E27F4A3F6001652D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDFF823027F4A3F6001652D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDFF823227F4A3F6001652D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDFF823527F4A3F6001652D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFF823827F4A3F6001652D0 /* Neurognosis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Neurognosis.xcdatamodel; sourceTree = "<group>"; };
+		BDFF823A27F4A3F8001652D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFF823D27F4A3F8001652D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFF823F27F4A3F8001652D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFF824427F4A3F9001652D0 /* NeurognosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurognosisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFF824827F4A3F9001652D0 /* NeurognosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurognosisTests.swift; sourceTree = "<group>"; };
+		BDFF824E27F4A3F9001652D0 /* NeurognosisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurognosisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFF825227F4A3F9001652D0 /* NeurognosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurognosisUITests.swift; sourceTree = "<group>"; };
+		BDFF825427F4A3F9001652D0 /* NeurognosisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurognosisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDFF826627F7CB0C001652D0 /* PageContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentController.swift; sourceTree = "<group>"; };
+		BDFF826827F7CFBE001652D0 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		BDFF82B827FA45CE001652D0 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TermsViewController.swift; path = Neurognosis/Controller/TermsViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFF822827F4A3F6001652D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF824127F4A3F9001652D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF824B27F4A3F9001652D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDFF822227F4A3F6001652D0 = {
+			isa = PBXGroup;
+			children = (
+				BDFF822D27F4A3F6001652D0 /* Neurognosis */,
+				BDFF824727F4A3F9001652D0 /* NeurognosisTests */,
+				BDFF825127F4A3F9001652D0 /* NeurognosisUITests */,
+				BDFF822C27F4A3F6001652D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFF822C27F4A3F6001652D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF822B27F4A3F6001652D0 /* Neurognosis.app */,
+				BDFF824427F4A3F9001652D0 /* NeurognosisTests.xctest */,
+				BDFF824E27F4A3F9001652D0 /* NeurognosisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFF822D27F4A3F6001652D0 /* Neurognosis */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF822E27F4A3F6001652D0 /* AppDelegate.swift */,
+				BDFF823027F4A3F6001652D0 /* SceneDelegate.swift */,
+				BDFF826527F7CA5B001652D0 /* Model */,
+				BDFF826427F7CA4C001652D0 /* Controller */,
+				BDFF826327F7CA45001652D0 /* View */,
+				BDFF823F27F4A3F8001652D0 /* Info.plist */,
+				BD9092C3281855C7006AAAF8 /* Data.plist */,
+				BDFF823727F4A3F6001652D0 /* Neurognosis.xcdatamodeld */,
+			);
+			path = Neurognosis;
+			sourceTree = "<group>";
+		};
+		BDFF824727F4A3F9001652D0 /* NeurognosisTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF824827F4A3F9001652D0 /* NeurognosisTests.swift */,
+			);
+			path = NeurognosisTests;
+			sourceTree = "<group>";
+		};
+		BDFF825127F4A3F9001652D0 /* NeurognosisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF825227F4A3F9001652D0 /* NeurognosisUITests.swift */,
+				BDFF825427F4A3F9001652D0 /* NeurognosisUITestsLaunchTests.swift */,
+			);
+			path = NeurognosisUITests;
+			sourceTree = "<group>";
+		};
+		BDFF826327F7CA45001652D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF823427F4A3F6001652D0 /* Main.storyboard */,
+				BDFF823C27F4A3F8001652D0 /* LaunchScreen.storyboard */,
+				BDFF823A27F4A3F8001652D0 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDFF826427F7CA4C001652D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF823227F4A3F6001652D0 /* ViewController.swift */,
+				BDFF826627F7CB0C001652D0 /* PageContentController.swift */,
+				BDFF826827F7CFBE001652D0 /* PageViewController.swift */,
+				BDFF82B827FA45CE001652D0 /* TermsViewController.swift */,
+				BD9092B9281753FE006AAAF8 /* InputViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDFF826527F7CA5B001652D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD9092C1281836F8006AAAF8 /* PListManager.swift */,
+				BD9092BF2817BCB4006AAAF8 /* PopUpWindowView.swift */,
+				BD9092BD2817A61F006AAAF8 /* CheckBox.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFF822A27F4A3F6001652D0 /* Neurognosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFF825827F4A3F9001652D0 /* Build configuration list for PBXNativeTarget "Neurognosis" */;
+			buildPhases = (
+				BDFF822727F4A3F6001652D0 /* Sources */,
+				BDFF822827F4A3F6001652D0 /* Frameworks */,
+				BDFF822927F4A3F6001652D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neurognosis;
+			productName = Neurognosis;
+			productReference = BDFF822B27F4A3F6001652D0 /* Neurognosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDFF824327F4A3F9001652D0 /* NeurognosisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFF825B27F4A3F9001652D0 /* Build configuration list for PBXNativeTarget "NeurognosisTests" */;
+			buildPhases = (
+				BDFF824027F4A3F9001652D0 /* Sources */,
+				BDFF824127F4A3F9001652D0 /* Frameworks */,
+				BDFF824227F4A3F9001652D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFF824627F4A3F9001652D0 /* PBXTargetDependency */,
+			);
+			name = NeurognosisTests;
+			productName = NeurognosisTests;
+			productReference = BDFF824427F4A3F9001652D0 /* NeurognosisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDFF824D27F4A3F9001652D0 /* NeurognosisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFF825E27F4A3F9001652D0 /* Build configuration list for PBXNativeTarget "NeurognosisUITests" */;
+			buildPhases = (
+				BDFF824A27F4A3F9001652D0 /* Sources */,
+				BDFF824B27F4A3F9001652D0 /* Frameworks */,
+				BDFF824C27F4A3F9001652D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFF825027F4A3F9001652D0 /* PBXTargetDependency */,
+			);
+			name = NeurognosisUITests;
+			productName = NeurognosisUITests;
+			productReference = BDFF824E27F4A3F9001652D0 /* NeurognosisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFF822327F4A3F6001652D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BDFF822A27F4A3F6001652D0 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					BDFF824327F4A3F9001652D0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BDFF822A27F4A3F6001652D0;
+					};
+					BDFF824D27F4A3F9001652D0 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BDFF822A27F4A3F6001652D0;
+					};
+				};
+			};
+			buildConfigurationList = BDFF822627F4A3F6001652D0 /* Build configuration list for PBXProject "Neurognosis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFF822227F4A3F6001652D0;
+			productRefGroup = BDFF822C27F4A3F6001652D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFF822A27F4A3F6001652D0 /* Neurognosis */,
+				BDFF824327F4A3F9001652D0 /* NeurognosisTests */,
+				BDFF824D27F4A3F9001652D0 /* NeurognosisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFF822927F4A3F6001652D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF823E27F4A3F8001652D0 /* LaunchScreen.storyboard in Resources */,
+				BDFF823B27F4A3F8001652D0 /* Assets.xcassets in Resources */,
+				BD9092C4281855C7006AAAF8 /* Data.plist in Resources */,
+				BDFF823627F4A3F6001652D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF824227F4A3F9001652D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF824C27F4A3F9001652D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFF822727F4A3F6001652D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF823927F4A3F6001652D0 /* Neurognosis.xcdatamodeld in Sources */,
+				BDFF826727F7CB0C001652D0 /* PageContentController.swift in Sources */,
+				BD9092BE2817A61F006AAAF8 /* CheckBox.swift in Sources */,
+				BDFF823327F4A3F6001652D0 /* ViewController.swift in Sources */,
+				BD9092BA281753FE006AAAF8 /* InputViewController.swift in Sources */,
+				BD9092C2281836F8006AAAF8 /* PListManager.swift in Sources */,
+				BDFF826927F7CFBE001652D0 /* PageViewController.swift in Sources */,
+				BDFF822F27F4A3F6001652D0 /* AppDelegate.swift in Sources */,
+				BD9092C02817BCB4006AAAF8 /* PopUpWindowView.swift in Sources */,
+				BDFF823127F4A3F6001652D0 /* SceneDelegate.swift in Sources */,
+				BDFF82B927FA45CE001652D0 /* TermsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF824027F4A3F9001652D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF824927F4A3F9001652D0 /* NeurognosisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF824A27F4A3F9001652D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF825327F4A3F9001652D0 /* NeurognosisUITests.swift in Sources */,
+				BDFF825527F4A3F9001652D0 /* NeurognosisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDFF824627F4A3F9001652D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFF822A27F4A3F6001652D0 /* Neurognosis */;
+			targetProxy = BDFF824527F4A3F9001652D0 /* PBXContainerItemProxy */;
+		};
+		BDFF825027F4A3F9001652D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFF822A27F4A3F6001652D0 /* Neurognosis */;
+			targetProxy = BDFF824F27F4A3F9001652D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDFF823427F4A3F6001652D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFF823527F4A3F6001652D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFF823C27F4A3F8001652D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFF823D27F4A3F8001652D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFF825627F4A3F9001652D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDFF825727F4A3F9001652D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFF825927F4A3F9001652D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNY8QWTN4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neurognosis/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tirsong.Neurognosis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDFF825A27F4A3F9001652D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNY8QWTN4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neurognosis/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tirsong.Neurognosis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDFF825C27F4A3F9001652D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNY8QWTN4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tirsong.NeurognosisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neurognosis.app/Neurognosis";
+			};
+			name = Debug;
+		};
+		BDFF825D27F4A3F9001652D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNY8QWTN4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tirsong.NeurognosisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neurognosis.app/Neurognosis";
+			};
+			name = Release;
+		};
+		BDFF825F27F4A3F9001652D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNY8QWTN4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tirsong.NeurognosisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neurognosis;
+			};
+			name = Debug;
+		};
+		BDFF826027F4A3F9001652D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNY8QWTN4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tirsong.NeurognosisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neurognosis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFF822627F4A3F6001652D0 /* Build configuration list for PBXProject "Neurognosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFF825627F4A3F9001652D0 /* Debug */,
+				BDFF825727F4A3F9001652D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFF825827F4A3F9001652D0 /* Build configuration list for PBXNativeTarget "Neurognosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFF825927F4A3F9001652D0 /* Debug */,
+				BDFF825A27F4A3F9001652D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFF825B27F4A3F9001652D0 /* Build configuration list for PBXNativeTarget "NeurognosisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFF825C27F4A3F9001652D0 /* Debug */,
+				BDFF825D27F4A3F9001652D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFF825E27F4A3F9001652D0 /* Build configuration list for PBXNativeTarget "NeurognosisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFF825F27F4A3F9001652D0 /* Debug */,
+				BDFF826027F4A3F9001652D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDFF823727F4A3F6001652D0 /* Neurognosis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDFF823827F4A3F6001652D0 /* Neurognosis.xcdatamodel */,
+			);
+			currentVersion = BDFF823827F4A3F6001652D0 /* Neurognosis.xcdatamodel */;
+			path = Neurognosis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDFF822327F4A3F6001652D0 /* Project object */;
+}
